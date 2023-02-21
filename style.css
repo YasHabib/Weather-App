@@ -97,3 +97,20 @@ body{
 }
 
 /* Hour section */
+.hour-section{
+  width: 100%;
+  text-align: center;
+  border-spacing: 0;
+}
+
+.hour-row{
+  background-color: hsl(200, 100%, 75%);
+}
+
+.hour-row:nth-child(2n){
+  background-color: hsl(200, 100%, 70%);
+}
+
+.hour-row > td{
+  padding: 0.25rem 0.5rem;
+}
